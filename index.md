@@ -9,7 +9,7 @@
     <p>This is a test.</p>
     <script>
       console.log("beef");
-      $(body).css("background-color:red;");
+      $("body").css("background-color:red;");
     </script>
     </body>
 </html>
