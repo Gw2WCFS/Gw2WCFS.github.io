@@ -6,10 +6,10 @@
   </head>
   <body>
     <script></script>
-    <p>This is a test.</p>
+    <p id="test">This is a test.</p>
     <script>
       console.log("beef");
-      $("body").css("background-color:red;");
+      $("#test").css("background-color:red;");
     </script>
     </body>
 </html>
