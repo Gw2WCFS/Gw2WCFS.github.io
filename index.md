@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
@@ -10,6 +9,7 @@
     <p>This is a test.</p>
     <script>
       console.log("beef");
+      $(body).css("background-color:red");
     </script>
-  </body>
+    </body>
 </html>
