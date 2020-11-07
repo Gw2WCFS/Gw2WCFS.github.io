@@ -9,7 +9,13 @@
     <p id="test">This is a test.</p>
     <script>
       console.log("beef");
-      $("#test").css("background-color","#FF00FF");
+      $(document).ready(function() {
+        $.getJSON('https://api.guildwars2.com/v2/achievements/daily/tomorrow',function(data){
+            var results = data;
+            console.log(results);
+          });
+        });
+      <!-- $("#test").css("background-color","#FF00FF"); -->
     </script>
     </body>
 </html>
